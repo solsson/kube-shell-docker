@@ -10,3 +10,8 @@ docker run --rm -v $HOME/.kube/my-specific-cluster-conf-file:/home/k/.kube/confi
 [#42](https://github.com/cloudnativelabs/kube-shell/issues/42) is an issue here.
 Actually the reason I was looking for a kubectl wrapper was to
 try to improve my workflow w.r.t. namespaces + tab completion.
+
+Alternatives:
+
+ * https://github.com/Mikulas/kubectl-repl/
+ * https://github.com/c-bata/kube-prompt/
